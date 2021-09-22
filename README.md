@@ -1,6 +1,6 @@
 # SampleGHComponentWPF
 
-![Screenshot](https://github.com/mottmacdonaldglobal/SampleGHComponentWPF/blob/main/docs/VideoPresentation.mp4)
+https://user-images.githubusercontent.com/57708659/134297601-4f693917-df63-430e-8a16-8c4e63cfcef4.mp4
 
 ## Difficulty 
 Simple
@@ -22,11 +22,7 @@ C:\Users\"your username"\AppData\Roaming\Grasshopper\Libraries
 * **Rhino version**: 7
 
 ## Running the Code
- ```
 Drag the component into the canvas, double click on it and just play with the interface to get the results.
-
-```
-### Change Log 
 
 ### Tags 
 Grasshopper, WPF
