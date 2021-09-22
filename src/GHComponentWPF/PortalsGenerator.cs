@@ -1,7 +1,7 @@
 using Grasshopper.Kernel;
 using System;
-using WpfBase;
-using WpfBase.ViewModel;
+using WpfBase.View;
+using WpfBase.ViewModels;
 
 namespace GHComponentWPF
 {
@@ -10,7 +10,7 @@ namespace GHComponentWPF
         private MainWindow _mainView;
 
         public PortalsGenerator()
-          : base("PortalsGenerator", "PG", "Create a serious of portals based on the data provided from the UI", "UI", "UI")
+          : base("PortalsGenerator", "PG", "Create a series of portals based on the data provided from the UI", "UI", "UI")
         {
         }
 
@@ -25,8 +25,8 @@ namespace GHComponentWPF
 
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            if (!(_mainView?.DataContext is FrameViewModel dvm)) return;
-            DA.SetDataList(0, dvm.DataGeometry.Portals);
+            if (!(_mainView?.DataContext is MainViewModel dvm)) return;
+            DA.SetDataList(0, dvm.PortalFrameModel.Portals);
             dvm.UpdateDefinition(() => ExpireSolution(true));
         }
 
@@ -39,7 +39,7 @@ namespace GHComponentWPF
         {
             _mainView = new MainWindow();
             _mainView.Show();
-            if (!(_mainView.DataContext is FrameViewModel dvm)) return;
+            if (!(_mainView.DataContext is MainViewModel dvm)) return;
             dvm.UpdateDefinition(() => ExpireSolution(true));
         }
 

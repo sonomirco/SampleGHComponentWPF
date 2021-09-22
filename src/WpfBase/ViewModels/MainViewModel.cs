@@ -3,21 +3,21 @@ using System;
 using System.Linq;
 using WpfBase.Model;
 
-namespace WpfBase.ViewModel
+namespace WpfBase.ViewModels
 {
     /// <summary>
     /// Custom view model keeping the binding logic and the geometry creation.
     /// </summary>
-    public class FrameViewModel : BaseViewModel
+    public class MainViewModel : BaseViewModel
     {
         private double _span;
         private double _height;
         private int _frameCount;
         private Profiles _profiles;
 
-        public FrameViewModel()
+        public MainViewModel()
         {
-            DataGeometry = new FrameDto();
+            PortalFrameModel = new PortalFrameModel();
         }
 
         public double Span
@@ -62,7 +62,7 @@ namespace WpfBase.ViewModel
 
         public Action Update;
 
-        public FrameDto DataGeometry { get; }
+        public PortalFrameModel PortalFrameModel { get; }
 
         public void CreatePortals()
         {
@@ -75,9 +75,9 @@ namespace WpfBase.ViewModel
                 portals[i] = (Brep)portalTemp;
             }
 
-            DataGeometry.Portals = portals.ToList();
-            DataGeometry.Height = Height;
-            DataGeometry.Span = Span;
+            PortalFrameModel.Portals = portals.ToList();
+            PortalFrameModel.Height = Height;
+            PortalFrameModel.Span = Span;
         }
 
         private Brep CreatePortal()

@@ -1,10 +1,10 @@
-﻿<Window x:Class="WpfBase.MainWindow"
+﻿<Window x:Class="WpfBase.View.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:viewModel="clr-namespace:WpfBase.ViewModel"
         xmlns:data="clr-namespace:WpfBase.Model"
+        xmlns:view="clr-namespace:WpfBase.View"
         mc:Ignorable="d"
         Title="Frames Generator" Height="180" Width="250"
         WindowStartupLocation ="CenterScreen">
@@ -35,7 +35,7 @@
             <!--Profiles-->
             <TextBlock Text="Profiles" Margin="0 5 0 5"/>
             <ComboBox Padding="2"
-                      ItemsSource="{Binding Source={viewModel:EnumBinding {x:Type data:Profiles}}}"
+                      ItemsSource="{Binding Source={view:EnumBinding {x:Type data:Profiles}}}"
                       SelectedValue="{Binding Path=Profile, Mode = OneWayToSource}"
                       SelectedIndex="1"/>
 

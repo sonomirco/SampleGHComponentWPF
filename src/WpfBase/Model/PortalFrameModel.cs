@@ -6,7 +6,7 @@ namespace WpfBase.Model
     /// <summary>
     /// Class used to transport the data.
     /// </summary>
-    public class FrameDto
+    public class PortalFrameModel
     {
         public double Span { get; set; }
 

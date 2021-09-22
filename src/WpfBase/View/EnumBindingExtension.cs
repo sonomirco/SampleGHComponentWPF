@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Markup;
 
-namespace WpfBase.ViewModel
+namespace WpfBase.View
 {
     public class EnumBindingExtension : MarkupExtension
     {
