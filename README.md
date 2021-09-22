@@ -1,4 +1,4 @@
-# grasshopper_template
+# SampleGHComponentWPF
 
 ![Screenshot](/thumbnail.png)
 
@@ -6,21 +6,16 @@
 Simple
 
 ## Description 
-INSERT HERE
+Sample C# Grasshopper custom component that demonstrates various user interface elements using Windows Presentation Foundation (WPF).
 
 ## Repository Ownership**
 * **Practice**: INSERT HERE
 * **Sector**: INSERT HERE
-* **Original Author(s)** INSERT HERE
+* **Original Author(s)** Mirco Bianchini @sonomirco
 * **Contact Details for Current Repository Owner(s)** tatjana.somova@mottmac.com
 
 ## Installation Instructions**
-List of external packages:
-Githopper - Version=1.3.1, Snippets.scripting - Version=0.0.0.0, MetaHopper - Version=1.0.8.0
-
-In order to successfully run the code in this repository, it is recommended that you copy all external plugins used within the script to AppData folder and zip it.
-
-Path to the Grasshopper plugins:
+Copy the Grasshopper plugins:
 C:\Users\"your username"\AppData\Roaming\Grasshopper\Libraries
 
 ## Tested on**
@@ -28,11 +23,11 @@ C:\Users\"your username"\AppData\Roaming\Grasshopper\Libraries
 
 ## Running the Code
  ```
-Insert instructions on how to run the code here.
+Drag the component into the canvas, double click on it and just play with the interface to get the results.
 
 ```
 ### Change Log 
 
 ### Tags 
-grasshopper_template, Grasshopper
+Grasshopper, WPF
 
