@@ -1,6 +1,6 @@
 # SampleGHComponentWPF
 
-![Screenshot](/thumbnail.png)
+![Screenshot](https://github.com/mottmacdonaldglobal/SampleGHComponentWPF/blob/main/docs/VideoPresentation.mp4)
 
 ## Difficulty 
 Simple
