@@ -2,9 +2,6 @@
 
 https://user-images.githubusercontent.com/57708659/134297601-4f693917-df63-430e-8a16-8c4e63cfcef4.mp4
 
-## Difficulty 
-Simple
-
 ## Description 
 Sample C# Grasshopper custom component that demonstrates various user interface elements using Windows Presentation Foundation (WPF).
 
