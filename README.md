@@ -12,8 +12,8 @@ Sample C# Grasshopper custom component that demonstrates various user interface 
 * **Contact Details for Current Repository Owner(s)** mirco.bianchini@mottmac.com
 
 ## Installation Instructions
-Copy the Grasshopper plugins saved here AppData\Roaming\Grasshopper\Libraries\net48 into the local folder:
-C:\Users\"your username"\AppData\Roaming\Grasshopper\Libraries
+Copy the Grasshopper plugins stored here ``AppData\Roaming\Grasshopper\Libraries\net48``<br/>
+into the local folder: ``C:\Users\"your username"\AppData\Roaming\Grasshopper\Libraries``
 
 ## Tested on
 * **Rhino version**: 7
@@ -23,4 +23,3 @@ Drag the component into the canvas, double click on it and just play with the in
 
 ### Tags 
 Grasshopper, WPF
-
