@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("GHComponentWPF")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Mirco Bianchini")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Description of GHComponentWPF")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
