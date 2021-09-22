@@ -1,0 +1,25 @@
+﻿WPF Rhino and grasshopper useful links
+https://discourse.mcneel.com/t/windows-forms-track-bar-live-update-to-grasshopper-component/36731/15
+https://discourse.mcneel.com/t/how-to-show-a-window-form-when-double-click-the-component/63376/4
+https://discourse.mcneel.com/t/python-why-eto-and-not-winforms-or-wpf/85468/15
+https://discourse.mcneel.com/t/windows-forms-track-bar-live-update-to-grasshopper-component/36731/2
+https://discourse.mcneel.com/t/how-to-expiresolution-with-in-a-class-c/74297
+https://github.com/mcneel/rhino-developer-samples/tree/6/rhinocommon/cs/SampleCsWpf
+https://github.com/enmerk4r/SpaceMonkey
+https://www.youtube.com/watch?v=s7WC-3DGpoI
+
+WPF Controls with MVVM: ComboBox
+https://www.youtube.com/watch?v=nKJ_XDoAdtY
+
+Center main window
+https://stackoverflow.com/questions/4019831/how-do-you-center-your-main-window-in-wpf
+
+How to Bind an Enum to a ComboBox in WPF
+https://www.youtube.com/watch?v=Bp5LFXjwtQ0
+
+WPF basic resources
+https://www.youtube.com/watch?v=Vjldip84CXQ&list=RDCMUCJ3AxeCHGPZkMi3kRfCuiHw&index=6
+https://www.youtube.com/watch?v=nKJ_XDoAdtY&t=2s
+https://www.youtube.com/watch?v=EPhJz7CHnuQ
+https://scottlilly.com/c-design-patterns-mvvm-model-view-viewmodel/
+https://github.com/angelsix/youtube/tree/develop/WPF

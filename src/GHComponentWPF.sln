@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHComponentWPF", "GHComponentWPF\GHComponentWPF.csproj", "{EE04C573-A124-4C2E-B30A-B33E6FBCF563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBase", "WpfBase\WpfBase.csproj", "{12393038-6D81-4C6F-AD61-8F20E8BF3309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE04C573-A124-4C2E-B30A-B33E6FBCF563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE04C573-A124-4C2E-B30A-B33E6FBCF563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE04C573-A124-4C2E-B30A-B33E6FBCF563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE04C573-A124-4C2E-B30A-B33E6FBCF563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12393038-6D81-4C6F-AD61-8F20E8BF3309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12393038-6D81-4C6F-AD61-8F20E8BF3309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12393038-6D81-4C6F-AD61-8F20E8BF3309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12393038-6D81-4C6F-AD61-8F20E8BF3309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2713FD2E-FC0F-4E2E-809C-536D09D25329}
+	EndGlobalSection
+EndGlobal

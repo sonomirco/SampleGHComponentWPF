@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UfHFb2a+IHppGO9WsB5ucZvIrF0I+vcFi36+hzQJkpMdsKbSN2AsfsaOR73o/4Y5FGMplkupnUzsHV8SwdY/JQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BIA97506\\_MYFOLDER\\MM\\Repos\\SampleGHComponentWPF\\src\\GHComponentWPF\\GHComponentWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BIA97506\\.nuget\\packages\\grasshopper\\7.9.21222.15001\\grasshopper.7.9.21222.15001.nupkg.sha512",
+    "C:\\Users\\BIA97506\\.nuget\\packages\\rhinocommon\\7.9.21222.15001\\rhinocommon.7.9.21222.15001.nupkg.sha512"
+  ],
+  "logs": []
+}

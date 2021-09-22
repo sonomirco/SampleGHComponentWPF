@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Grasshopper/7.9.21222.15001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.9.21222.15001]"
+        },
+        "compile": {
+          "lib/net48/GH_IO.dll": {},
+          "lib/net48/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net48/_._": {}
+        },
+        "build": {
+          "build/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/7.9.21222.15001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Eto.dll": {},
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net48/_._": {}
+        },
+        "build": {
+          "build/RhinoCommon.targets": {}
+        }
+      },
+      "WpfBase/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WpfBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/7.9.21222.15001": {
+      "sha512": "DSP+QZHwmZvePZXjkduoRuDZM1mZf4QBLfy4aQPt71CMStep+MWUq3pnZIHrSG6XP1VRsCnQukVP0Lj7VchihQ==",
+      "type": "package",
+      "path": "grasshopper/7.9.21222.15001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Grasshopper.targets",
+        "grasshopper.7.9.21222.15001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net48/GH_IO.XML",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "RhinoCommon/7.9.21222.15001": {
+      "sha512": "UBZHPZRFcddVqQc1u//OGQw6FAgp/+M9o3cdp4pmidJauDx7xxZtKsAxgCfXgW1sym1hkEjQudWeA/zSUZ/pjg==",
+      "type": "package",
+      "path": "rhinocommon/7.9.21222.15001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/RhinoCommon.targets",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.XML",
+        "lib/net48/RhinoCommon.dll",
+        "rhinocommon.7.9.21222.15001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    },
+    "WpfBase/1.0.0": {
+      "type": "project",
+      "path": "../WpfBase/WpfBase.csproj",
+      "msbuildProject": "../WpfBase/WpfBase.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Grasshopper >= 7.9.21222.15001",
+      "WpfBase >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BIA97506\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\BIA97506\\_MYFOLDER\\MM\\Repos\\SampleGHComponentWPF\\src\\GHComponentWPF\\GHComponentWPF.csproj",
+      "projectName": "GHComponentWPF",
+      "projectPath": "C:\\Users\\BIA97506\\_MYFOLDER\\MM\\Repos\\SampleGHComponentWPF\\src\\GHComponentWPF\\GHComponentWPF.csproj",
+      "packagesPath": "C:\\Users\\BIA97506\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BIA97506\\_MYFOLDER\\MM\\Repos\\SampleGHComponentWPF\\src\\GHComponentWPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\BIA97506\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {
+            "C:\\Users\\BIA97506\\_MYFOLDER\\MM\\Repos\\SampleGHComponentWPF\\src\\WpfBase\\WpfBase.csproj": {
+              "projectPath": "C:\\Users\\BIA97506\\_MYFOLDER\\MM\\Repos\\SampleGHComponentWPF\\src\\WpfBase\\WpfBase.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Grasshopper": {
+            "include": "Compile, Build",
+            "target": "Package",
+            "version": "[7.9.21222.15001, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

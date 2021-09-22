@@ -1,0 +1,57 @@
+﻿<Window x:Class="WpfBase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:WpfBase.ViewModel"
+        xmlns:data="clr-namespace:WpfBase.Model"
+        mc:Ignorable="d"
+        Title="Frames Generator" Height="180" Width="250"
+        WindowStartupLocation ="CenterScreen">
+    <Border Padding="5">
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+
+                <!--Span, Height, FrameCount data-->
+                <TextBlock Text="Span" Grid.Row ="0" Grid.Column="0"/>
+                <TextBox Margin="0 0 5 0" Grid.Row ="1" Grid.Column="0" Text="{Binding Path=Span, Mode = OneWayToSource}" Padding="2" />
+
+                <TextBlock Margin="5 0 0 0" Text="Height" Grid.Row ="0" Grid.Column="1"/>
+                <TextBox Margin="5 0 5 0" Grid.Row ="1" Grid.Column="1" Text="{Binding Path=Height, Mode = OneWayToSource}" Padding="2" />
+
+                <TextBlock Margin="5 0 0 0" Text="FrameCount" Grid.Row ="0" Grid.Column="2"/>
+                <TextBox Margin="5 0 0 0" Grid.Row ="1" Grid.Column="2" Text="{Binding Path=FrameCount, Mode = OneWayToSource}" Padding="2" />
+            </Grid>
+
+            <!--Profiles-->
+            <TextBlock Text="Profiles" Margin="0 5 0 5"/>
+            <ComboBox Padding="2"
+                      ItemsSource="{Binding Source={viewModel:EnumBinding {x:Type data:Profiles}}}"
+                      SelectedValue="{Binding Path=Profile, Mode = OneWayToSource}"
+                      SelectedIndex="1"/>
+
+            <!--Generation button-->
+            <Button Background="LightGray" 
+                    FontWeight="Bold"  
+                    x:Name="PointCreation" 
+                    Click="PointCreation_OnClick"  
+                    Margin="10 10 10 0">
+                Generate
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+    </Border>
+</Window>
