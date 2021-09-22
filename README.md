@@ -15,7 +15,7 @@ Sample C# Grasshopper custom component that demonstrates various user interface 
 * **Contact Details for Current Repository Owner(s)** tatjana.somova@mottmac.com
 
 ## Installation Instructions**
-Copy the Grasshopper plugins:
+Copy the Grasshopper plugins saved here AppData\Roaming\Grasshopper\Libraries\net48 into the local folder:
 C:\Users\"your username"\AppData\Roaming\Grasshopper\Libraries
 
 ## Tested on**
